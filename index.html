@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container my-4 mt-5"> 
+        <!-- <h1 class="text-center">Calculator</h1>  -->
+        <div class="calculator card">
+            
+        <form action="">
+            <input type="text" class="calculator-screen z-depth-1" name="answer" value="" placeholder="0"/>
+        
+            <div class="calculator-keys">
+              <button type="button" value="+" onclick="form.answer.value += '+' " class="operator btn btn-info">+</button>
+              <button type="button" value="-" onclick="form.answer.value += '-' " class="operator btn btn-info">-</button>
+              <button type="button" value="*" onclick="form.answer.value += '*' " class="operator btn btn-info">&times;</button>
+              <button type="button" value="/" onclick="form.answer.value += '/' " class="operator btn btn-info">&divide;</button>
+              
+              <button type="button" value="7" onclick="form.answer.value += '9' " class="btn btn-light waves-effect">9</button>
+              <button type="button" value="8" onclick="form.answer.value += '8' " class="btn btn-light waves-effect">8</button>
+              <button type="button" value="9" onclick="form.answer.value += '7' " class="btn btn-light waves-effect">7</button>
+
+            <button type="button" value="%" onclick="form.answer.value += '%' " class="btn btn-info waves-effect">%</button>
+        
+              <button type="button" value="4" onclick="form.answer.value += '6' " class="btn btn-light waves-effect">6</button>
+              <button type="button" value="5" onclick="form.answer.value += '5' " class="btn btn-light waves-effect">5</button>
+              <button type="button" value="6" onclick="form.answer.value += '4' " class="btn btn-light waves-effect">4</button>
+        
+              <button type="button" value="1" onclick="form.answer.value += '1' " class="btn btn-light waves-effect">1</button>
+              <button type="button" value="2" onclick="form.answer.value += '2' " class="btn btn-light waves-effect">2</button>
+              <button type="button" value="3" onclick="form.answer.value += '3' " class="btn btn-light waves-effect">3</button>
+        
+              <button type="button" value="0" onclick="form.answer.value += '0' " class="btn btn-light waves-effect">0</button>
+              <button type="button" value="." onclick="form.answer.value += '.' " class="decimal function btn btn-secondary" value=".">.</button>
+              <button type="button" value="Clear All" onclick="form.answer.value = '' "  class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+
+              
+              
+        
+              <button type="button" onclick="form.answer.value = eval(form.answer.value)" class="equal-sign operator btn btn-primary" value="=">=</button>
+              
+        
+            </div>
+        </form>
+            
+          </div>
+        </div>
+    <!--     
+    <form action="" id="calculator">
+      <input type="number" id="first_value" placeholder="Enter first number" />
+      +
+      <input type="number" id="sec_value" placeholder="Enter second number" />
+      <button type="submit">Result</button>
+    </form>
+    <h1 id="result"></h1> -->
+
+    <!-- <h1 id="filter"></h1>
+    <h1 id="filter2"></h1>
+    <h1 id="space"></h1>
+    <h1 id="vowel"></h1> -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
